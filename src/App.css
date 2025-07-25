@@ -1,0 +1,73 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.search-container {
+  margin: 20px 0;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.filter-container {
+  margin: 15px 0;
+}
+
+.filter-container select {
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.stock-filter {
+  margin: 15px 0;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.product-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.in-stock {
+  color: green;
+  font-weight: bold;
+}
+
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  grid-column: 1 / -1;
+}
